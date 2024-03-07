@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1709821295.25547 "/Users/xiezeyu/Documents/GitHub/Myosotis-Latex/src/note.tex" "note.pdf" "note" 1709821295.61733 0
-  "/Users/xiezeyu/Documents/GitHub/Myosotis-Latex/src/note.tex" 1709821295.04436 1386 e2c06efccf5b8e6e7475ce2f22f19fbd ""
+["pdflatex"] 1709824336.44918 "/Users/xiezeyu/Documents/GitHub/Myosotis-Latex/src/note.tex" "note.pdf" "note" 1709824336.84727 0
+  "/Users/xiezeyu/Documents/GitHub/Myosotis-Latex/src/note.tex" 1709824336.20574 3284 9ed1294d8fc7fcb5dc9b938057dcfbeb ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -27,13 +27,15 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty" 1686341992 2444 0d0c1ee65478277e8015d65b86983da2 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls" 1705352648 20144 147463a6a579f4597269ef9565205cfe ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty" 1579038678 6078 f1cb470c9199e7110a27851508ed7a5c ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1708427688 30006 3d512c0edd558928ddea1690180ef77e ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty" 1698869629 1618 c5f08dcf49a56107311a81073b35fa4e ""
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1697057529 41009 84b61f42d16d06bedb915f57aa2374cf ""
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1709737948.25282 5467645 7844745587c65c737e58770674a077d1 ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1709737975 8221323 2c51c1ddd03d19701099751fe62edccf ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "note.aux" 1709821295.58232 403 189e45420f5e2b09ef19894a484fe1be "pdflatex"
-  "note.tex" 1709821295.04436 1386 e2c06efccf5b8e6e7475ce2f22f19fbd ""
+  "note.aux" 1709824336.80575 583 6f5c9ea16c71319b45bad1d9177decdd "pdflatex"
+  "note.tex" 1709824336.20574 3284 9ed1294d8fc7fcb5dc9b938057dcfbeb ""
   (generated)
   "note.aux"
   "note.log"

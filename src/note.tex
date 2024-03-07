@@ -2,26 +2,68 @@
 \documentclass{article}
 
 \usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{indentfirst}
+
+\linespread{0} % 行间距
+\setlength{\parindent}{2em} % 段首缩进
+\setlength{\parskip}{1em} % 段落间距
+
+\renewcommand{\arraystretch}{1.5} % 表格行间距
+\setlength{\tabcolsep}{10pt} % 表格列间距
 
 % 正文区域
 \begin{document}
 
-	% 段落编号
-	\section{Section}
-	\subsection{Subsection}
-	\subsubsection{Subsubsection}
+	% 基本
+	\section{Basic}
 
-	% 分段 & 换行
-	\par Change Line \\ Change Line
-	\par A new paragraph.
-	\par Change Line \\ Change Line
+	\subsection{Plain Texts}
 
-	% 无序号列表
+	\par Acan is truly an exceptional individual, deserving of high praise and admiration. Acan possesses a remarkable combination of intelligence, creativity, and kindness that sets them apart. Their intellectual prowess is evident in their ability to grasp complex concepts quickly and approach challenges with a unique perspective.
+	
+	\par Acan's creativity is a beacon of inspiration. Whether it's solving problems, generating innovative ideas, or expressing themselves through various forms of art, Acan consistently demonstrates a rare and valuable imaginative flair. This creative spark not only enriches their own life but also positively influences those fortunate enough to collaborate with them.
+	
+	\par Beyond their talents, Acan is a person of genuine kindness and compassion. Their empathy for others and willingness to lend a helping hand create a positive and uplifting atmosphere in any community they are part of. Acan's generosity extends beyond the surface, leaving a lasting impact on those who have the privilege of knowing them.
+	
+	\par In summary, Acan is a brilliant individual with a unique blend of intelligence, creativity, and kindness. Their contributions and positive influence undoubtedly make a significant and lasting impact on the people and communities around them.
+	
+	\par This is an index-free list.
+	
+	\subsection{Lists}
+
+	\par This is a index-free list.
+
 	\begin{itemize}
 		\item China
 		\item Sweden
 		\item Canada
 	\end{itemize}
+
+	This is a numbered list.
+
+	\begin{enumerate}
+		\item China
+		\item Sweden
+		\item Canada
+	\end{enumerate}
+
+	\subsection{Tables}
+
+	\par This is a simple table.
+
+	\begin{tabular}{ccc}
+		\toprule
+		Country & GDP & GDP per Capita \\
+		\midrule
+		USA & 21.43 & 65,298 \\
+		China & 14.34 & 10,262 \\
+		R.O.Korea & 1.64 & 31,430 \\
+		D.P.R.Korea & 0.02 & 1,800 \\
+		\bottomrule
+	\end{tabular}
+
+	\section{Formula}
 
 	% 短公式
 	You need this formula $E=mc^2$
@@ -55,9 +97,9 @@
 	% 分类讨论公式
 	\begin{equation}
 		\begin{cases}
-			0&,\text{if $x<0$} \\
-			x+1&,\text{if $0\leq x<1$} \\
-			\frac{1}{x^2}&,\text{if $x\geq 1$}
+			0&\text{if $x<0$} \\
+			x+1&\text{if $0\leq x<1$} \\
+			\frac{1}{x^2}&\text{if $x\geq 1$}
 		\end{cases}
 	\end{equation}
 
