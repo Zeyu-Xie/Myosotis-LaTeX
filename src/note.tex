@@ -3,13 +3,13 @@
 
 \usepackage{amsmath}
 \usepackage{booktabs}
+\usepackage{graphicx}
 \usepackage{indentfirst}
 
-\linespread{0} % 行间距
+\linespread{1} % 行间距
 \setlength{\parindent}{2em} % 段首缩进
 \setlength{\parskip}{1em} % 段落间距
 
-\renewcommand{\arraystretch}{1.5} % 表格行间距
 \setlength{\tabcolsep}{10pt} % 表格列间距
 
 % 正文区域
@@ -50,41 +50,61 @@
 
 	\subsection{Tables}
 
-	\par This is a simple table.
+	\par This is a table.
 
-	\begin{tabular}{ccc}
-		\toprule
-		Country & GDP & GDP per Capita \\
-		\midrule
-		USA & 21.43 & 65,298 \\
-		China & 14.34 & 10,262 \\
-		R.O.Korea & 1.64 & 31,430 \\
-		D.P.R.Korea & 0.02 & 1,800 \\
-		\bottomrule
-	\end{tabular}
+	\begin{table}[htbp]
+		\centering
+		\caption{The GDP of the World's Major Economies}
+		\begin{tabular}{cccc}
+			\toprule
+			Country & GDP & GDP per Capita & Population \\
+			\midrule
+			USA & 21.43 & 65,298 & 328,239,523 \\
+			China & 14.34 & 10,262 & 1,439,323,776 \\
+			R.O.Korea & 1.64 & 31,430 & 51,269,185 \\
+			D.P.R.Korea & 0.02 & 1,800 & 25,778,816 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
 
 	\section{Formula}
 
 	% 短公式
-	You need this formula $E=mc^2$
+	\subsection{Short Formula}
+
+	\par You need this formula $E=mc^2$
 
 	% 单行公式
-	The equation \eqref{Sharon} is a single-line formula:
+	\subsection{Single-line Formula}
+	
+	\par The equation \eqref{Sharon} is a single-line formula:
+	
 	\begin{equation}\label{Sharon}
 		E=mc^2
 	\end{equation}
-	This equation \eqref{Acan} is also a single-line formula:
+
+	\par This equation \eqref{Acan} is also a single-line formula:
+	
 	\begin{equation}\label{Acan}
 		\alpha^2+\beta^2 = \gamma^2
 	\end{equation}
 
 	% 无编号公式
-	This is an index-free formula:
+	\subsection{Unnumbered Formula}
+
+	\par This is an index-free formula:
+	
 	\[E=mc^2\]
-	This is also an index-free formula:
+	
+	\par This is also an index-free formula:
+	
 	$$E=mc^2$$
 
 	% 多行公式
+	\subsection{Multi-line Formula}
+
+	\par This is a multi-line formula:
+
 	\begin{equation}
 		\begin{split}
 			\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\
@@ -95,6 +115,10 @@
 	\end{equation}
 
 	% 分类讨论公式
+	\subsection{Case-by-Case Formula}
+
+	\par This is a case-by-case formula:
+
 	\begin{equation}
 		\begin{cases}
 			0&\text{if $x<0$} \\
@@ -102,5 +126,16 @@
 			\frac{1}{x^2}&\text{if $x\geq 1$}
 		\end{cases}
 	\end{equation}
+
+	% 图片
+	\section{Image}	
+
+	\par This is a picture.
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.5\textwidth]{./img/Apple_Inc.png}
+		\caption{A Picture of Acan}
+	\end{figure}
 
 \end{document}
