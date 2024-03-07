@@ -1,11 +1,64 @@
-% 
+% 设定区域
 \documentclass{article}
 
 \usepackage{amsmath}
 
+% 正文区域
 \begin{document}
-  \begin{equation}\label{1}
-    E=mc^2
-  \end{equation}
-  Equation \eqref{1} was recognized by Einstein.
+
+	% 段落编号
+	\section{Section}
+	\subsection{Subsection}
+	\subsubsection{Subsubsection}
+
+	% 分段 & 换行
+	\par Change Line \\ Change Line
+	\par A new paragraph.
+	\par Change Line \\ Change Line
+
+	% 无序号列表
+	\begin{itemize}
+		\item China
+		\item Sweden
+		\item Canada
+	\end{itemize}
+
+	% 短公式
+	You need this formula $E=mc^2$
+
+	% 单行公式
+	The equation \eqref{Sharon} is a single-line formula:
+	\begin{equation}\label{Sharon}
+		E=mc^2
+	\end{equation}
+	This equation \eqref{Acan} is also a single-line formula:
+	\begin{equation}\label{Acan}
+		\alpha^2+\beta^2 = \gamma^2
+	\end{equation}
+
+	% 无编号公式
+	This is an index-free formula:
+	\[E=mc^2\]
+	This is also an index-free formula:
+	$$E=mc^2$$
+
+	% 多行公式
+	\begin{equation}
+		\begin{split}
+			\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\
+    		\nabla \cdot \mathbf{B} &= 0 \\
+    		\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \\
+    		\nabla \times \mathbf{B} &= \mu_0\left(\mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
+		\end{split}
+	\end{equation}
+
+	% 分类讨论公式
+	\begin{equation}
+		\begin{cases}
+			0&,\text{if $x<0$} \\
+			x+1&,\text{if $0\leq x<1$} \\
+			\frac{1}{x^2}&,\text{if $x\geq 1$}
+		\end{cases}
+	\end{equation}
+
 \end{document}
