@@ -1,2 +1,3 @@
 # Myosotis-Latex
-Notes
+
+Notes and Templates for Latex
